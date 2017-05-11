@@ -1,0 +1,27 @@
+header {
+    position: absolute;
+    top:0;
+    left: 0;margin: auto;
+    height: 5vh;
+    width: 100vw;
+    background-color: #4E5066;
+}
+
+
+.vertical-line {
+    border-left: thin solid #9ea7af;
+    margin-left: 30px;
+    top: 3px;
+    position: absolute;
+    width: 1px;
+    height: 4vh;
+    padding-bottom: 2px;
+}
+
+
+
+.back-to-home {
+    height: 5vh;
+    position: absolute;
+    top: 0;
+}
