@@ -1,4 +1,6 @@
 <?php
+require_once "../DB.php";
+require_once "../DBEntity.php";
 
 /**
  * Created by PhpStorm.
@@ -6,7 +8,7 @@
  * Date: 3/14/17
  * Time: 8:03 PM
  */
-class Client
+class Client extends DBEntity
 {
     private $name;
     private $address;
@@ -14,6 +16,25 @@ class Client
     private $gender;
     private $credit;
     private $phone;
+    private $addressInfo;
+
+    /**
+     * @return mixed
+     */
+    public function getAddressInfo()
+    {
+        return $this->addressInfo;
+    }
+
+    /**
+     * @param mixed $addressInfo
+     */
+    public function setAddressInfo($addressInfo)
+    {
+        $this->addressInfo = $addressInfo;
+    }
+
+
 
 
    /* public function __construct($obj)
@@ -32,25 +53,7 @@ class Client
 
     }
 
-    public  function  addToDB($str) {
-        echo"1";
-        $server_name = "localhost";
-        $username = "root";
-        $password = "";
-        $db_name = "Bank";
 
-        $conn = mysqli_connect($server_name, $username, $password, $db_name);
-        $sql = "INSERT INTO Client (key, name, address, birth_date, gender, credit, phone)
-                 VALUES ('1','ww', 'asd', '21.12.1996', 'male', '24242423')";
-
-        if(mysqli_query($conn,$sql)) {
-            echo "OK";
-        } else {
-            echo "Err" .$sql."<br>".mysqli_error($conn);
-        }
-        mysqli_close($conn);
-
-    }
     public function getName()
     {
         return $this->name;
@@ -113,13 +116,13 @@ class Client
 
     public function isClient($str) {  //being better
         $array = explode("~", $str);
-            if(count($array) == 6 && $str != "")
+            if(count($array) == 4 && $str != "")
                 return true;
             else
                 return false;
     }
 
-    public function parseStrToObj($line) {  //от він
+    public function parseStrToObj($line) {
         if(!empty($line)) {
             $separateWords = explode("~", $line);
             $this->name = $separateWords[0];
@@ -151,4 +154,17 @@ class Client
         return $this->getName()." ".$this->getAddress()." ".$this->dateOfBirthday." ".$this->getGender()." ".$this->getCredit()." ".$this->getPhone();
     }
 
+
+    protected function getProperty() {
+        return "(`id`, `name`, `birth_date`, `gender`, `address`, `phone` )";
+    }
+
+    protected function getValue() {
+        return "(\"".$this->getID()."\", \""
+            .$this->getName()."\", \""
+            .$this->getDateOfBirthday()."\", \""
+            .$this->getGender()."\", \""
+            .$this->getAddress()."\", \""
+            .$this->getPhone()."\")";
+    }
 }

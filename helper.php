@@ -41,7 +41,10 @@ function mSort($array)
 // universal
 function whichClientsHadThisDigit($digit) {
     $rez = array();
-    $allClients = getClients();
+    $obj = new Client();
+    $db = new DB();
+    $obj->rel($db);
+    $allClients = $obj->getTable();
     foreach ($allClients as $client=>$value) {
         if(strpos($value->getPhone(), $digit) !== false){
             array_push($rez,$value);
@@ -65,39 +68,41 @@ function printTable($array, $tablepos) {
         echo "Name";
         echo "</th >";
         echo "<th class=\"text-left\">";
-        echo "Address";
-        echo "</th>";
-        echo "<th class=\"text-left\">";
+        //echo "Address";
+        //echo "</th>";
+        //echo "<th class=\"text-left\">";
         echo "Date Of Birthday";
         echo "</th>";
         echo "<th class=\"text-left\">";
         echo "Gender";
         echo "</th>";
         echo "<th class=\"text-left\">";
-        echo "Credit";
-        echo "</th>";
-        echo "<th class=\"text-left\">";
+        //echo "Credit";
+        //echo "</th>";
+        //echo "<th class=\"text-left\">";
         echo "Phone";
         echo "</th>";
-        echo "</tr>";
+        //echo "Credit";
+        //echo "</th>";
+        //echo "<th class=\"text-left\">";
         foreach ($array as $value) {
                 if (!empty($value)) {
                     echo "<tr>";
                     echo "<td class=\"text-left\">";
                     echo $value->getName();
                     echo "</td >";
-                    echo "<td class=\"text-left\">";
-                    echo $value->getAddress();
-                    echo "</td>";
+                    //echo "<td class=\"text-left\">";
+                    //echo $value->getAddress();
+                    //echo "</td>";
                     echo "<td class=\"text-left\">";
                     echo $value->getDateOfBirthday();
                     echo "</td>";
                     echo "<td class=\"text-left\">";
                     echo $value->getGender();
                     echo "</td>";
-                    echo "<td class=\"text-left\">";
-                    echo $value->getCredit();
-                    echo "</td>";
+                    //echo "<td class=\"text-left\">";
+                    //echo $value->getCredit();
+                    //echo "</td>";
                     echo "<td class=\"text-left\">";
                     echo $value->getPhone();
                     echo "</td>";
@@ -106,6 +111,11 @@ function printTable($array, $tablepos) {
         }
         echo "</table>";
     }
+}
+
+
+function getNewID() {
+
 }
 
 

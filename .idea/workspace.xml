@@ -15,31 +15,78 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="AddUserForm.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/styles/AddUserForm.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1492">
+              <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="table.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/styles/table.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-530">
+              <caret line="52" column="20" lean-forward="false" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="add_controller.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Controller/add_controller.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+            <state relative-caret-position="-1024">
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="inputFind.phtml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/View/inputFind.phtml">
+      <file leaf-file-name="helper.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/helper.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="10" column="63" lean-forward="false" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
+            <state relative-caret-position="458">
+              <caret line="83" column="21" lean-forward="false" selection-start-line="83" selection-start-column="21" selection-end-line="83" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="credit_controller.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Controller/credit_controller.php">
+      <file leaf-file-name="table_controller.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Controller/table_controller.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <state relative-caret-position="234">
+              <caret line="9" column="43" lean-forward="false" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DBEntity.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DBEntity.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="27" column="28" lean-forward="true" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+              <folding>
+                <marker date="1494928030000" expanded="true" signature="441:454" ph="SELECT * FRO... " />
+                <marker date="1494928030000" expanded="true" signature="605:617" ph="INSERT INTO ${$tj}... " />
+                <marker date="1494928030000" expanded="true" signature="605:643" ph="INSERT INTO ${$this-&gt;getTable()}... " />
+                <marker date="1494928030000" expanded="true" signature="605:644" ph="INSERT INTO ${$this-&gt;getTable()}... " />
+                <marker date="1494928030000" expanded="true" signature="605:673" ph="INSERT INTO ${$this-&gt;getTable()}... " />
+                <marker date="1494928030000" expanded="true" signature="605:674" ph="INSERT INTO ${$this-&gt;getTable()}... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DB.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DB.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="614">
+              <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -48,9 +95,12 @@
       <file leaf-file-name="Client.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Model/Client.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="36" column="8" lean-forward="true" selection-start-line="36" selection-start-column="8" selection-end-line="50" selection-end-column="28" />
+            <state relative-caret-position="650">
+              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding>
+                <element signature="n#getAddressInfo#0;n#Client#0;n#!!top" expanded="false" />
+                <element signature="e#469#513#0#PHP" expanded="false" />
+                <element signature="n#setAddressInfo#0;n#Client#0;n#!!top" expanded="false" />
                 <element signature="n#getName#0;n#Client#0;n#!!top" expanded="false" />
                 <element signature="n#setName#0;n#Client#0;n#!!top" expanded="false" />
                 <element signature="n#getAddress#0;n#Client#0;n#!!top" expanded="false" />
@@ -61,81 +111,77 @@
                 <element signature="n#setGender#0;n#Client#0;n#!!top" expanded="false" />
                 <element signature="n#getCredit#0;n#Client#0;n#!!top" expanded="false" />
                 <element signature="n#setCredit#0;n#Client#0;n#!!top" expanded="false" />
+                <element signature="n#getPhone#0;n#Client#0;n#!!top" expanded="false" />
                 <element signature="n#setPhone#0;n#Client#0;n#!!top" expanded="false" />
-                <element signature="n#isClient#0;n#Client#0;n#!!top" expanded="false" />
-                <element signature="n#parseStrToObj#0;n#Client#0;n#!!top" expanded="false" />
                 <element signature="n#addToFile#0;n#Client#0;n#!!top" expanded="false" />
                 <element signature="n#__toString#0;n#Client#0;n#!!top" expanded="false" />
-                <marker date="1494514420000" expanded="true" signature="859:1009" ph="INSERT INTO Client... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Clients.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Data/Clients.txt">
+      <file leaf-file-name="Address.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Model/Address.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="6" column="59" lean-forward="false" selection-start-line="6" selection-start-column="59" selection-end-line="6" selection-end-column="59" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="find_controller.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Controller/find_controller.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="connectDB.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/connectDB.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="11" column="90" lean-forward="false" selection-start-line="11" selection-start-column="90" selection-end-line="11" selection-end-column="90" />
+            <state relative-caret-position="312">
+              <caret line="82" column="56" lean-forward="false" selection-start-line="82" selection-start-column="56" selection-end-line="82" selection-end-column="56" />
               <folding>
-                <marker date="1494516004000" expanded="true" signature="234:397" ph="INSERT INTO Client... " />
+                <element signature="e#212#244#0#PHP" expanded="false" />
+                <element signature="n#getCity#0;n#Address#0;n#!!top" expanded="false" />
+                <element signature="e#320#357#0#PHP" expanded="false" />
+                <element signature="n#setCity#0;n#Address#0;n#!!top" expanded="false" />
+                <element signature="e#439#471#0#PHP" expanded="false" />
+                <element signature="n#getStreet#0;n#Address#0;n#!!top" expanded="false" />
+                <element signature="e#551#590#0#PHP" expanded="false" />
+                <element signature="n#setStreet#0;n#Address#0;n#!!top" expanded="false" />
+                <element signature="e#680#712#0#PHP" expanded="false" />
+                <element signature="n#getHome#0;n#Address#0;n#!!top" expanded="false" />
+                <element signature="e#788#825#0#PHP" expanded="false" />
+                <element signature="n#setHome#0;n#Address#0;n#!!top" expanded="false" />
+                <element signature="e#907#939#0#PHP" expanded="false" />
+                <element signature="n#getIndex#0;n#Address#0;n#!!top" expanded="false" />
+                <element signature="e#1017#1055#0#PHP" expanded="false" />
+                <element signature="n#setIndex#0;n#Address#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="table_controller.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Controller/table_controller.php">
+      <file leaf-file-name="CreditCard.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Model/CreditCard.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="5" column="21" lean-forward="false" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Route.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Route.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="884">
-              <caret line="39" column="20" lean-forward="false" selection-start-line="39" selection-start-column="20" selection-end-line="40" selection-end-column="64" />
+            <state relative-caret-position="832">
+              <caret line="165" column="38" lean-forward="false" selection-start-line="165" selection-start-column="38" selection-end-line="165" selection-end-column="38" />
               <folding>
-                <marker date="1491301112000" expanded="true" signature="1421:1869" ph="..." />
-                <marker date="1491301112000" expanded="true" signature="1428:1610" ph="..." />
-                <marker date="1491301112000" expanded="true" signature="1618:1869" ph="..." />
-                <marker date="1491301112000" expanded="true" signature="1673:1869" ph="..." />
-                <marker date="1491301112000" expanded="true" signature="1694:1784" ph="..." />
+                <element signature="e#540#572#0#PHP" expanded="false" />
+                <element signature="n#getNumber#0;n#CreditCard#0;n#!!top" expanded="false" />
+                <element signature="e#652#691#0#PHP" expanded="false" />
+                <element signature="n#setNumber#0;n#CreditCard#0;n#!!top" expanded="false" />
+                <element signature="e#781#813#0#PHP" expanded="false" />
+                <element signature="n#getCV2#0;n#CreditCard#0;n#!!top" expanded="false" />
+                <element signature="e#887#923#0#PHP" expanded="false" />
+                <element signature="n#setCV2#0;n#CreditCard#0;n#!!top" expanded="false" />
+                <element signature="e#1001#1033#0#PHP" expanded="false" />
+                <element signature="n#getPin#0;n#CreditCard#0;n#!!top" expanded="false" />
+                <element signature="e#1107#1143#0#PHP" expanded="false" />
+                <element signature="n#setPin#0;n#CreditCard#0;n#!!top" expanded="false" />
+                <element signature="e#1221#1253#0#PHP" expanded="false" />
+                <element signature="n#getType#0;n#CreditCard#0;n#!!top" expanded="false" />
+                <element signature="e#1329#1366#0#PHP" expanded="false" />
+                <element signature="n#setType#0;n#CreditCard#0;n#!!top" expanded="false" />
+                <element signature="e#1448#1480#0#PHP" expanded="false" />
+                <element signature="n#getBalance#0;n#CreditCard#0;n#!!top" expanded="false" />
+                <element signature="e#1562#1602#0#PHP" expanded="false" />
+                <element signature="n#setBalance#0;n#CreditCard#0;n#!!top" expanded="false" />
+                <element signature="e#1696#1728#0#PHP" expanded="false" />
+                <element signature="n#getCurrency#0;n#CreditCard#0;n#!!top" expanded="false" />
+                <element signature="e#1812#1853#0#PHP" expanded="false" />
+                <element signature="n#setCurrency#0;n#CreditCard#0;n#!!top" expanded="false" />
+                <element signature="e#1951#1983#0#PHP" expanded="false" />
+                <element signature="n#getOwner#0;n#CreditCard#0;n#!!top" expanded="false" />
+                <element signature="e#2061#2099#0#PHP" expanded="false" />
+                <element signature="n#setOwner#0;n#CreditCard#0;n#!!top" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="helper.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/helper.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1144">
-              <caret line="44" column="46" lean-forward="false" selection-start-line="44" selection-start-column="46" selection-end-line="44" selection-end-column="46" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -145,8 +191,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -157,15 +203,12 @@
       <find>h3</find>
       <find>Rou</find>
       <find>echo</find>
+      <find>Set db</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Model/AddDataForm.php" />
-        <option value="$PROJECT_DIR$/Model/test.php" />
-        <option value="$PROJECT_DIR$/src/styles/slides.css" />
-        <option value="$PROJECT_DIR$/View/start.php" />
         <option value="$PROJECT_DIR$/Model/Clients.php" />
         <option value="$PROJECT_DIR$/Controller/Clients.php" />
         <option value="$PROJECT_DIR$/Model/AllClients.class.php" />
@@ -175,18 +218,15 @@
         <option value="$PROJECT_DIR$/View/AddUser.php" />
         <option value="$PROJECT_DIR$/Controller/index_Controller.php" />
         <option value="$PROJECT_DIR$/View/addUser.php" />
-        <option value="$PROJECT_DIR$/src/styles/AddUserForm.css" />
         <option value="$PROJECT_DIR$/View/sorted.php" />
         <option value="$PROJECT_DIR$/View/find.php" />
         <option value="$PROJECT_DIR$/Route.php" />
         <option value="$PROJECT_DIR$/src/styles/menu.css" />
         <option value="$PROJECT_DIR$/View/index.php" />
         <option value="$PROJECT_DIR$/src/styles/header.css" />
-        <option value="$PROJECT_DIR$/View/table.phtml" />
         <option value="$PROJECT_DIR$/Controller/index_controller.php" />
         <option value="$PROJECT_DIR$/View/table.html" />
         <option value="$PROJECT_DIR$/View/table.php" />
-        <option value="$PROJECT_DIR$/src/styles/table.css" />
         <option value="$PROJECT_DIR$/View/index.html" />
         <option value="$PROJECT_DIR$/src/styles/add.css" />
         <option value="$PROJECT_DIR$/View/find.html" />
@@ -198,19 +238,28 @@
         <option value="$PROJECT_DIR$/View/add.php" />
         <option value="$PROJECT_DIR$/View/header.php" />
         <option value="$PROJECT_DIR$/View/header.html" />
-        <option value="$PROJECT_DIR$/Controller/table_controller.php" />
         <option value="$PROJECT_DIR$/Model/AllClients.php" />
         <option value="$PROJECT_DIR$/Data/DataBase.txt" />
-        <option value="$PROJECT_DIR$/View/add.phtml" />
         <option value="$PROJECT_DIR$/View/index.phtml" />
         <option value="$PROJECT_DIR$/View/header.phtml" />
-        <option value="$PROJECT_DIR$/Data/Clients.txt" />
         <option value="$PROJECT_DIR$/Controller/credit_controller.php" />
         <option value="$PROJECT_DIR$/Controller/find_controller.php" />
-        <option value="$PROJECT_DIR$/helper.php" />
-        <option value="$PROJECT_DIR$/Controller/add_controller.php" />
-        <option value="$PROJECT_DIR$/Model/Client.php" />
+        <option value="$PROJECT_DIR$/DB.php" />
         <option value="$PROJECT_DIR$/connectDB.php" />
+        <option value="$PROJECT_DIR$/Data/Clients.txt" />
+        <option value="$PROJECT_DIR$/View/table.phtml" />
+        <option value="$PROJECT_DIR$/src/styles/creditCard.css" />
+        <option value="$PROJECT_DIR$/Controller/card_controller.php" />
+        <option value="$PROJECT_DIR$/DBEntity.php" />
+        <option value="$PROJECT_DIR$/View/add.phtml" />
+        <option value="$PROJECT_DIR$/Model/CreditCard.php" />
+        <option value="$PROJECT_DIR$/Model/Address.php" />
+        <option value="$PROJECT_DIR$/src/styles/table.css" />
+        <option value="$PROJECT_DIR$/src/styles/AddUserForm.css" />
+        <option value="$PROJECT_DIR$/Model/Client.php" />
+        <option value="$PROJECT_DIR$/Controller/add_controller.php" />
+        <option value="$PROJECT_DIR$/Controller/table_controller.php" />
+        <option value="$PROJECT_DIR$/helper.php" />
       </list>
     </option>
   </component>
@@ -473,12 +522,12 @@
       <workItem from="1489742269050" duration="23377000" />
       <workItem from="1490261906318" duration="15829000" />
       <workItem from="1491117408101" duration="67406000" />
-      <workItem from="1494342773708" duration="15017000" />
+      <workItem from="1494342773708" duration="48267000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="138979000" />
+    <option name="totallyTimeSpent" value="172229000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -516,41 +565,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Model/AllClients.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Model/test.php" />
-    <entry file="file://$PROJECT_DIR$/Data/Clients.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="28" lean-forward="false" selection-start-line="0" selection-start-column="28" selection-end-line="0" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Model/AddDataForm.php" />
-    <entry file="file://$PROJECT_DIR$/Model/AllClients.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Model/test.php" />
-    <entry file="file://$PROJECT_DIR$/Data/Clients.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="28" lean-forward="false" selection-start-line="0" selection-start-column="28" selection-end-line="0" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Model/AddDataForm.php" />
     <entry file="file://$PROJECT_DIR$/Model/AllClients.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -579,95 +593,46 @@
     <entry file="file://$PROJECT_DIR$/src/img/addUser.png" />
     <entry file="file://$PROJECT_DIR$/src/img/addUser.png" />
     <entry file="file://$PROJECT_DIR$/src/img/addd.jpg" />
-    <entry file="file://$PROJECT_DIR$/src/img/add.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/img/credits.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/View/InfoAboutMe.php" />
-    <entry file="file://$PROJECT_DIR$/src/styles/AddUserForm.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-322">
-          <caret line="48" column="44" lean-forward="true" selection-start-line="48" selection-start-column="44" selection-end-line="48" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/View/findPhone.php" />
     <entry file="file://$PROJECT_DIR$/View/sorted.php" />
     <entry file="file://$PROJECT_DIR$/Controller/index_controller.php" />
     <entry file="file://$PROJECT_DIR$/View/find.php" />
-    <entry file="file://$PROJECT_DIR$/src/styles/table.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="40" column="30" lean-forward="false" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/header.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="25" column="4" lean-forward="false" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/menu.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="744">
-          <caret line="113" column="1" lean-forward="false" selection-start-line="113" selection-start-column="1" selection-end-line="113" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/slides.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="773">
           <caret line="96" column="24" lean-forward="true" selection-start-line="96" selection-start-column="24" selection-end-line="96" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/inputFind.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="11" column="23" lean-forward="false" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/View/add_Page.html" />
-    <entry file="file://$PROJECT_DIR$/View/t.phtml">
+    <entry file="file://$PROJECT_DIR$/Model/AllClients.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        <state relative-caret-position="406">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/View/table.phtml">
+    <entry file="file://$PROJECT_DIR$/Data/Clients.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/View/add.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="156">
+          <caret line="6" column="59" lean-forward="false" selection-start-line="6" selection-start-column="59" selection-end-line="6" selection-end-column="59" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/View/header.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
+        <state relative-caret-position="494">
           <caret line="19" column="21" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
           <folding>
-            <element signature="e#187#463#0#HTML" expanded="false" />
             <marker date="1494350038000" expanded="true" signature="353:405" ph="..." />
             <marker date="1494350038000" expanded="true" signature="406:450" ph="..." />
           </folding>
@@ -676,7 +641,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/View/index.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
+        <state relative-caret-position="-244">
           <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
           <folding />
         </state>
@@ -690,17 +655,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Model/AllClients.php">
+    <entry file="file://$PROJECT_DIR$/View/t.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        <state relative-caret-position="104">
+          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/img/add.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/inputFind.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="11" column="23" lean-forward="false" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/menu.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="744">
+          <caret line="113" column="1" lean-forward="false" selection-start-line="113" selection-start-column="1" selection-end-line="113" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/connectDB.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Route.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
+        <state relative-caret-position="120">
           <caret line="39" column="20" lean-forward="false" selection-start-line="39" selection-start-column="20" selection-end-line="40" selection-end-column="64" />
           <folding>
             <marker date="1491301112000" expanded="true" signature="1421:1869" ph="..." />
@@ -712,10 +706,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Controller/table_controller.php">
+    <entry file="file://$PROJECT_DIR$/src/styles/header.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="5" column="21" lean-forward="false" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        <state relative-caret-position="614">
+          <caret line="25" column="4" lean-forward="false" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/creditCard.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="744">
+          <caret line="161" column="0" lean-forward="true" selection-start-line="161" selection-start-column="0" selection-end-line="161" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/View/table.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -736,35 +754,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/helper.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1144">
-          <caret line="44" column="46" lean-forward="false" selection-start-line="44" selection-start-column="46" selection-end-line="44" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data/Clients.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="6" column="59" lean-forward="false" selection-start-line="6" selection-start-column="59" selection-end-line="6" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controller/add_controller.php">
+    <entry file="file://$PROJECT_DIR$/Controller/card_controller.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
-          <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/View/add.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2574">
+          <caret line="99" column="74" lean-forward="false" selection-start-line="99" selection-start-column="74" selection-end-line="99" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/table.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-530">
+          <caret line="52" column="20" lean-forward="false" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/AddUserForm.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1492">
+          <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Model/Client.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="36" column="8" lean-forward="true" selection-start-line="36" selection-start-column="8" selection-end-line="50" selection-end-column="28" />
+        <state relative-caret-position="650">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding>
+            <element signature="n#getAddressInfo#0;n#Client#0;n#!!top" expanded="false" />
+            <element signature="e#469#513#0#PHP" expanded="false" />
+            <element signature="n#setAddressInfo#0;n#Client#0;n#!!top" expanded="false" />
             <element signature="n#getName#0;n#Client#0;n#!!top" expanded="false" />
             <element signature="n#setName#0;n#Client#0;n#!!top" expanded="false" />
             <element signature="n#getAddress#0;n#Client#0;n#!!top" expanded="false" />
@@ -775,22 +804,119 @@
             <element signature="n#setGender#0;n#Client#0;n#!!top" expanded="false" />
             <element signature="n#getCredit#0;n#Client#0;n#!!top" expanded="false" />
             <element signature="n#setCredit#0;n#Client#0;n#!!top" expanded="false" />
+            <element signature="n#getPhone#0;n#Client#0;n#!!top" expanded="false" />
             <element signature="n#setPhone#0;n#Client#0;n#!!top" expanded="false" />
-            <element signature="n#isClient#0;n#Client#0;n#!!top" expanded="false" />
-            <element signature="n#parseStrToObj#0;n#Client#0;n#!!top" expanded="false" />
             <element signature="n#addToFile#0;n#Client#0;n#!!top" expanded="false" />
             <element signature="n#__toString#0;n#Client#0;n#!!top" expanded="false" />
-            <marker date="1494514420000" expanded="true" signature="859:1009" ph="INSERT INTO Client... " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/connectDB.php">
+    <entry file="file://$PROJECT_DIR$/Controller/table_controller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="11" column="90" lean-forward="false" selection-start-line="11" selection-start-column="90" selection-end-line="11" selection-end-column="90" />
+        <state relative-caret-position="234">
+          <caret line="9" column="43" lean-forward="false" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/helper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="83" column="21" lean-forward="false" selection-start-line="83" selection-start-column="21" selection-end-line="83" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controller/add_controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1024">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DB.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="614">
+          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DBEntity.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="27" column="28" lean-forward="true" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
           <folding>
-            <marker date="1494516004000" expanded="true" signature="234:397" ph="INSERT INTO Client... " />
+            <marker date="1494928030000" expanded="true" signature="441:454" ph="SELECT * FRO... " />
+            <marker date="1494928030000" expanded="true" signature="605:617" ph="INSERT INTO ${$tj}... " />
+            <marker date="1494928030000" expanded="true" signature="605:643" ph="INSERT INTO ${$this-&gt;getTable()}... " />
+            <marker date="1494928030000" expanded="true" signature="605:644" ph="INSERT INTO ${$this-&gt;getTable()}... " />
+            <marker date="1494928030000" expanded="true" signature="605:673" ph="INSERT INTO ${$this-&gt;getTable()}... " />
+            <marker date="1494928030000" expanded="true" signature="605:674" ph="INSERT INTO ${$this-&gt;getTable()}... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model/Address.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="82" column="56" lean-forward="false" selection-start-line="82" selection-start-column="56" selection-end-line="82" selection-end-column="56" />
+          <folding>
+            <element signature="e#212#244#0#PHP" expanded="false" />
+            <element signature="n#getCity#0;n#Address#0;n#!!top" expanded="false" />
+            <element signature="e#320#357#0#PHP" expanded="false" />
+            <element signature="n#setCity#0;n#Address#0;n#!!top" expanded="false" />
+            <element signature="e#439#471#0#PHP" expanded="false" />
+            <element signature="n#getStreet#0;n#Address#0;n#!!top" expanded="false" />
+            <element signature="e#551#590#0#PHP" expanded="false" />
+            <element signature="n#setStreet#0;n#Address#0;n#!!top" expanded="false" />
+            <element signature="e#680#712#0#PHP" expanded="false" />
+            <element signature="n#getHome#0;n#Address#0;n#!!top" expanded="false" />
+            <element signature="e#788#825#0#PHP" expanded="false" />
+            <element signature="n#setHome#0;n#Address#0;n#!!top" expanded="false" />
+            <element signature="e#907#939#0#PHP" expanded="false" />
+            <element signature="n#getIndex#0;n#Address#0;n#!!top" expanded="false" />
+            <element signature="e#1017#1055#0#PHP" expanded="false" />
+            <element signature="n#setIndex#0;n#Address#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model/CreditCard.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="832">
+          <caret line="165" column="38" lean-forward="false" selection-start-line="165" selection-start-column="38" selection-end-line="165" selection-end-column="38" />
+          <folding>
+            <element signature="e#540#572#0#PHP" expanded="false" />
+            <element signature="n#getNumber#0;n#CreditCard#0;n#!!top" expanded="false" />
+            <element signature="e#652#691#0#PHP" expanded="false" />
+            <element signature="n#setNumber#0;n#CreditCard#0;n#!!top" expanded="false" />
+            <element signature="e#781#813#0#PHP" expanded="false" />
+            <element signature="n#getCV2#0;n#CreditCard#0;n#!!top" expanded="false" />
+            <element signature="e#887#923#0#PHP" expanded="false" />
+            <element signature="n#setCV2#0;n#CreditCard#0;n#!!top" expanded="false" />
+            <element signature="e#1001#1033#0#PHP" expanded="false" />
+            <element signature="n#getPin#0;n#CreditCard#0;n#!!top" expanded="false" />
+            <element signature="e#1107#1143#0#PHP" expanded="false" />
+            <element signature="n#setPin#0;n#CreditCard#0;n#!!top" expanded="false" />
+            <element signature="e#1221#1253#0#PHP" expanded="false" />
+            <element signature="n#getType#0;n#CreditCard#0;n#!!top" expanded="false" />
+            <element signature="e#1329#1366#0#PHP" expanded="false" />
+            <element signature="n#setType#0;n#CreditCard#0;n#!!top" expanded="false" />
+            <element signature="e#1448#1480#0#PHP" expanded="false" />
+            <element signature="n#getBalance#0;n#CreditCard#0;n#!!top" expanded="false" />
+            <element signature="e#1562#1602#0#PHP" expanded="false" />
+            <element signature="n#setBalance#0;n#CreditCard#0;n#!!top" expanded="false" />
+            <element signature="e#1696#1728#0#PHP" expanded="false" />
+            <element signature="n#getCurrency#0;n#CreditCard#0;n#!!top" expanded="false" />
+            <element signature="e#1812#1853#0#PHP" expanded="false" />
+            <element signature="n#setCurrency#0;n#CreditCard#0;n#!!top" expanded="false" />
+            <element signature="e#1951#1983#0#PHP" expanded="false" />
+            <element signature="n#getOwner#0;n#CreditCard#0;n#!!top" expanded="false" />
+            <element signature="e#2061#2099#0#PHP" expanded="false" />
+            <element signature="n#setOwner#0;n#CreditCard#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>

@@ -1,14 +1,17 @@
 <?php
 require_once ("../helper.php");
-
+$obj = new Client();
+$db = new DB();
+$obj->rel($db);
 
 if(isset($isFullTable)) {
     require_once "../View/table.phtml";
-    printTable(getClients(),"default");
+   // printTable(getClients(),"defaults");
+    printTable($obj->getTable(),"default");
 }
 else if (isset($isSortTable)) {
     require_once "../View/table.phtml";
-    printTable(mSort(getClients()),"mid");
+    printTable(mSort($obj->getTable()),"mid");
 }
 else if (isset($isFind)) {
             if(isset($_POST['find']) && strlen(trim($_REQUEST['find'])) > 0){
